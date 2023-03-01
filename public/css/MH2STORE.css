@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mh2store {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#mh2store #store {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mh2store h1 {
+    text-align: center;
+    animation: identifier ease 1s infinite;
+    color: chartreuse;
+    font-size: 50px;
+    border: dashed chartreuse;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#store .mh {
+    width: 31.3%;
+    padding: 20px;
+
+}
+
+#mh2store .mh img {
+    width: 100%;
+    margin-top: 30px;
+   height: 100%;
+
+  
+}
+
+#mh2store .mh2 {
+    width: 30%;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 1px 2px 10px #000;
+
+}
+
+#mh2store .mh2 img {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+@keyframes identifier {
+    0% {
+        color: red;
+        border: dashed red;
+    }
+
+    50% {
+        color: aqua;
+        border: dashed aqua;
+
+    }
+}
+
+#mh2store .mh2s h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mh2store .mh2 input {
+    color: #fff;
+    background-color: red;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font-weight: 600;
+}
+
+#mh2store .mh2 .by {
+    position: relative;
+    margin-top: 20px;
+}
+
+#mh2store .mh2 .by p {
+    position: absolute;
+    right: 240px;
+    top: 5px;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+#mh2store .mh2 .cart {
+    position: absolute;
+    right: 0px;
+    top: -2px;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 15px;
+    background-color: #ccc;
+
+}
+
+#mh2store .mh2 .cart:hover {
+    background-color: red;
+    color: #fff;
+}
+#mh2store .mh2:hover {
+    box-shadow: 5px 15px 20px 5px  red;
+    
+}

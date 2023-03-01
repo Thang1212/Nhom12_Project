@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+#cart {
+ background-color: #fff;
+ width: 90%;
+margin-bottom: 100px;
+ margin-top: 200px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.money {
+    box-shadow: -2px 3px 3px 3px #000;
+      width: 68%;
+    border-radius: 10px;
+
+      margin-right: 30px;
+     
+}
+
+.money table .center{
+text-align: center;
+}
+.money table .center input{
+text-align: center;
+width: 30%;
+border-radius: 2px;
+border: 1px solid #ccc;
+padding: 5px;
+}
+.money table th {
+    padding: 5px;
+ text-align: center;
+ padding:20px 20px ;
+ border-bottom: 1px solid #ccc;
+ 
+
+
+}
+
+.money tbody td img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.money tbody td{
+ padding:20px 0 ;
+ border-bottom: 1px solid #ccc;
+
+
+ 
+    
+}
+.money tbody td p{
+    position: absolute;
+    top: 35px;
+    left: 120px;
+}
+
+.money .image{
+    position: relative;
+    width: 50%;
+}
+
+.money tbody td i{
+    font-size: 16px;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.sum_price {
+    width: 25%;
+    box-shadow: 10px 5px 20px 10px #000;
+    height: 360px;
+    border-radius: 10px;
+
+    
+}
+
+.sum_price input {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.sum_price #voucher{
+    margin-left: 60px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+.sum_price #btn_voucher{
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: 0;
+}
+.price  {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 100px;
+   justify-content: space-around;
+   border: 1px solid #ccc;
+   width: 96%;
+   margin-left: 10px;
+   
+}
+
+.price1 {
+    width: 40%;
+    opacity: 0.7;
+    
+
+}
+.price1 h3,
+.price2 h3
+{
+    margin-top: 10px;
+}
+.price2 {
+    width: 40%;
+    opacity: 0.9;
+
+   
+}
+
+/* .product {
+     display: none;
+} */
+
+#order{
+    width: 90%;
+    background-color: red;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 8000;
+}
+.hide {
+    display: none;
+}

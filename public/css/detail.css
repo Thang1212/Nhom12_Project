@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#detail {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+
+.detail_product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.detail_image {
+    width: 50%;
+    display: inline-block;
+}
+
+.detail_image img {
+    width: 100%;
+    border: 3px solid red;
+    border-radius: 10px;
+    border-bottom: 20px solid red;
+    border-top: 20px solid red;
+
+
+}
+
+.detail_image i{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 40px;
+    opacity: 0.6;
+}
+.detail_image i p{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#detail .price {
+    margin-left: 50px;
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    box-shadow: 10px 1px 5px #ccc;
+    padding: 15px;
+    margin-top: 0px;
+
+    
+
+}
+
+#detail .price h2 {
+    color: red;
+    margin-bottom: 60px;
+}
+
+#detail .price .cost {
+    position: absolute;
+    top: 5px;
+    margin-left: 140px;
+    text-decoration: line-through;
+    opacity: 0.6;
+
+}
+
+#detail .price h4 {
+    margin-bottom: 20px;
+
+}
+
+#detail .price h6 {
+    margin-top: 15px;
+    padding: 5px;
+    color: #fff;
+    background-color: red;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#detail .price .buy #buying {
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 60px;
+    background: linear-gradient(#f52f32, #e11b1e);
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 6px;
+}
+
+#detail .price .buy #installment {
+    width: 40%;
+    margin-left: 60px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: linear-gradient(180deg, #3a78d0, #277cea);
+    color: #fff;
+
+
+}
+
+#detail .price .buy #buy_card {
+    width: 40%;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(180deg, #3a78d0, #277cea);
+    color: #fff;
+
+}
+
+#detail .price .buy i {
+    border: 2px solid #f52f32;
+    color: #f52f32;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+#detail .price .buy i:hover {
+    color: rgb(209, 9, 9);
+    border: 2px solid rgb(183, 14, 14);
+
+    
+}
+
+#detail .information {
+    width: 100%;
+
+}
+#detail .information img{
+    margin-left: 200px;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#detail .information h3{
+    margin-top: 30px;
+}
